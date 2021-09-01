@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: dotted;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px;
+}
+a:hover{
+    opacity:3;
+    color: rgb(13, 196, 53);
+    transition: 0.5s;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.botaovoltar{
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.botaovoltar:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: #191c03;
+    transition: 0.5s;
+}
+.botaopassar{
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.botaopassar:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: #191c03;
+    transition: 0.5s;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 03.s ease-out;
+}
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card a{
+    color: darkgrey;
+    font-size: 16px;
+    margin-right: 45px;
+}
+.card a:hover{
+    opacity:3;
+    color: rgb(13, 196, 53);
+    transition: 0.5s;
+}
+.card p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-right: 45px;
+    padding-top: 5px;
+}
+.green{
+    border-left: 3px solid #3bbc4a;
+}
+.red{
+    border-left: 3px solid #bc3f3b;
+}
+.blue{
+    border-left: 3px solid #3ba2bc;
+}
+.pag-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.pag-descricao p{
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+    color: #191c03;
+    font-family: 'Roboto', sans-serif;
+}
+.pag-descricao h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #191c03;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*
+========================================================Pagina inicial===============================================
+*/
+li{
+    list-style: none;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/pexels-marcus-aurelius-6787960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center
+}
+.Main h1{
+    font-size: 2.5em;
+}
+li a{
+    color: white; text-transform: uppercase;
+}
+a{
+    text-decoration: dotted;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px;
+}
+a:hover{
+    opacity:3;
+    color: rgb(13, 196, 53);
+    transition: 0.5s;
+}
+nav{
+    display: flex;
+}
+/*
+=======================================================rodape========================================================
+*/
+footer{
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+footer h2{
+    text-transform: uppercase;
+}
+.creditosfinais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.creditosfinais p{
+    color: #a9a9a9;
+}
+button{
+    border-radius: 5px;
+    padding: 8px 8px;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #e9e9e9;
+    color: rgb(0, 0, 0);
+    
+}
+button:hover{
+    background-color: rgb(24, 167, 55);
+    color: black;
+    transition: 0.6s;
+    transform: translateX(5px);
+}
+input{
+    background-color: #e9e9e9;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 6px;
+    border: none;
+    width: 150px;
+    height: 200px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+}
+/*
+====================================================apresentação=====================================================
+*/
+.apresentacaodiv{
+    display: flex;
+}
+.imagemtexto{
+    padding: 40px 50px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 40px 50px;
+}
+.texto p{
+    text-align: center;
+    color: #191c03;
+    max-width: 800px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+}
+.texto h2{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.imagemtexto{
+    float: right;
+}
+.imagemtexto img{
+    margin-top: 69px;
+    max-width: 350px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.botaovoltar{
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.botaovoltar:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: #191c03;
+}
+.botaopassar{
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.botaopassar:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: #191c03;
+}
+
+/**
+==============================================================videos=================================================
+**/
+.pag-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.pag-descricao p{
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+    color: #191c03;
+    font-family: 'Roboto', sans-serif;
+}
+.pag-descricao h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #191c03;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+iframe{
+    padding: 15px 15px;
+}
+/*
+====================================================artigos==========================================================
+*/
+.conteudo-artigos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 03.s ease-out;
+}
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card a{
+    color: darkgrey;
+    font-size: 16px;
+    margin-right: 45px;
+}
+.card p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-right: 45px;
+    padding-top: 5px;
+}
+.card a:hover{
+    color: #3bbc4a;
+}
+.green{
+    border-left: 3px solid #3bbc4a;
+}
+.red{
+    border-left: 3px solid #bc3f3b;
+}
+.blue{
+    border-left: 3px solid #3ba2bc;
+}
