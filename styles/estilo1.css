@@ -47,7 +47,7 @@ nav{
 =======================================================rodape========================================================
 */
 footer{
-    min-height: 50vh;
+    min-height: 35vh;
     display: flex;
     justify-content: space-around;
     padding: 20px 50px;
@@ -57,11 +57,13 @@ footer h2{
 }
 .creditosfinais{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .creditosfinais p{
-    color: #a9a9a9;
+    color: #0f0c0c;
+    margin-left:35px;
 }
 button{
     border-radius: 5px;
@@ -87,8 +89,7 @@ input{
     padding: 8px 8px;
     margin: 6px;
     border: none;
-    width: 150px;
-    height: 200px;
+    width: 300px;
 }
 .cadastro{
     display: flex;
@@ -116,7 +117,7 @@ input{
     margin-bottom: 25px;
     font-size: 20px;
     text-align: justify;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .texto h2{
     text-transform: uppercase;
@@ -181,18 +182,17 @@ input{
     margin-top: 5px;
 }
 .pag-descricao p{
-    text-transform: uppercase;
     font-size: 1.0rem;
     margin-bottom: 15px;
     color: #191c03;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .pag-descricao h2{
     text-transform: uppercase;
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #191c03;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .videos{
     display: flex;
@@ -247,4 +247,7 @@ iframe{
 }
 .blue{
     border-left: 3px solid #3ba2bc;
+}
+.bronw{
+    border-left: 3px solid #723b0e;
 }
