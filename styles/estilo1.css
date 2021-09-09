@@ -182,9 +182,10 @@ input{
 .pag-descricao{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
+    justify-content: baseline;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 99px;
 }
 .pag-descricao p{
     font-size: 1.0rem;
@@ -198,6 +199,13 @@ input{
     margin-bottom: 10px;
     color: #191c03;
     font-family: 'Poppins', sans-serif;
+}
+.tecnologias-div{
+    background-color: #DEB887;
+    min-height: 100vh;
+}
+.nav-tecnologias{
+    background-color: #DEB887;
 }
 .videos{
     display: flex;
@@ -266,6 +274,16 @@ iframe{
     padding: 20px 50px;
     background-color:  #DEB887;
 }
+.rodape-pag_tecnologias{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color:  #DEB887;
+}
 .nav-apresentacao{
+    padding-top: 15px;
+}
+.nav-tecnologias{
     padding-top: 15px;
 }
