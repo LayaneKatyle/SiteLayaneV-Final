@@ -19,7 +19,7 @@ li{
     background-attachment: fixed;
     min-height: 100vh;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .Main h1{
     font-size: 2.5em;
@@ -42,6 +42,8 @@ a:hover{
 }
 nav{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*
 =======================================================rodape========================================================
@@ -98,8 +100,10 @@ input{
 /*
 ====================================================apresentação=====================================================
 */
-.apresentacaodiv{
+
+.apresentacao{
     display: flex;
+    background-color: #DEB887;
 }
 .imagemtexto{
     padding: 40px 50px;
@@ -131,7 +135,7 @@ input{
     max-width: 350px;
     margin-right: 50px;
     border-radius: 15px;
-}
+}/**
 .botoes{
     display: flex;
     flex-direction: row;
@@ -170,6 +174,7 @@ input{
     cursor: pointer;
     color: #191c03;
 }
+**/
 
 /**
 ==============================================================videos=================================================
@@ -250,4 +255,17 @@ iframe{
 }
 .bronw{
     border-left: 3px solid #723b0e;
+}
+/**
+=========================================pagina de apresentação============================================
+**/
+.rodape-pag_apresentacao{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color:  #DEB887;
+}
+.nav-apresentacao{
+    padding-top: 15px;
 }
