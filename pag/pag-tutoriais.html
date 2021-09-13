@@ -9,28 +9,38 @@
     <title>Tutoriais</title>
 </head>
 <body>
-    <section class="pag-descricao">
-        <h2>Tutoriais</h2>
-        <p>Inclusão de idosos na era digital.</p>
-    </section>
-    <div class="row">
-        <div class="card green">
-            <p>Como instalar o WhatsApp</p>
-            <a href="https://youtu.be/-0FZd0plvBc" target="_blank">Clique aqui para ver o turorial</a>
+    <nav class="tutoriais nav-tutoriais">
+        <li><a href="pag-apresentacao.html">Apresentação</a></li>
+        <li><a href="tecnologias.html">Idosos e tecnologia</a></li>
+        <li><a href="pag-artigos.html">Artigos</a></li>
+        <li><a href="pag-tutoriais.html">Tutoriais</a></li>
+        <li><a href="../index.html">Menu</a></li>
+        <li><a href="https://forms.gle/ceG1ha7Jhd22umos5" target="_blank">Enquetes</a></li>
+    </nav>
+    <div class="tutoriais-div">
+        <section class="pag-descricao">
+            <h2>Tutoriais</h2>
+            <p>Inclusão de idosos na era digital.</p>
+        </section>
+        <div class="row">
+            <div class="card green">
+                <p>Criando conta no WhatsApp</p>
+                <a href="https://youtu.be/-0FZd0plvBc" target="_blank">Clique aqui para ver o turorial</a>
 
-        </div>
-        <div class="card blue">
-            <p>Criando conta no Facebook</p>
-            <a href="https://youtu.be/Bs0MYuxRvGc" target="_blank">Clique aqui para ver o turorial</a>
-           
-        </div>
-        <div class="card bronw">
-            <p>Criando conta no Google</p>
-            <a href="https://youtu.be/s70kePRK7xM" target="_blank">Clique aqui para ver o turorial</a>
-        </div>
-        <div class="card red">
-            <p>Como fazer um e-mail</p>
-            <a href="https://youtu.be/qXtzobMvNCg" target="_blank">Clique aqui para ver o turorial</a>
+            </div>
+            <div class="card blue">
+                <p>Criando conta no Facebook</p>
+                <a href="https://youtu.be/Bs0MYuxRvGc" target="_blank">Clique aqui para ver o turorial</a>
+            
+            </div>
+            <div class="card bronw">
+                <p>Criando conta no Google</p>
+                <a href="https://youtu.be/s70kePRK7xM" target="_blank">Clique aqui para ver o turorial</a>
+            </div>
+            <div class="card red">
+                <p>Criando conta no e-mail</p>
+                <a href="https://youtu.be/qXtzobMvNCg" target="_blank">Clique aqui para ver o turorial</a>
+            </div>
         </div>
     </div>
     <!--
@@ -39,12 +49,21 @@
         <a href="../index.html" class="botaopassar">Voltar para menu</a>
     </div>
     -->
+    <hr width = 99.8% align="right" noshade>
+    <footer class="rodape-tutoriais">
+        <div class="creditosfinais">
+            <p>Instituto Federal do Rio Grande do Norte - Campus Nova Cruz <br>Projeto integrador - INFO3V</p>
+            <p><strong>Desenvolvido por:</strong> Diva Gomes e Layane Sousa <br>
+            <Strong>Orientador:</Strong> Willame Sales</p>
+        </div>
+    </footer>
+    
     <div id="tutorial-novo" class="tutorial-novo">
         <form id="contatoForm" method="get" action="mailto:layane.l@escolar.ifrn.edu.br" target="_blank" class="cadastro">
             <h2>Qual o próximo tutorial quer ver por aqui?</h2>
             <input type="hidden" name="Subject" value="Meu assunto">
             <input type="hidden" name="Body" value="">
-            <input class="cells" type="text" name="opiniao" placeholder="ex: turorial do instagram">
+            <input class="cells" type="text" name="opiniao" placeholder="ex: Turorial de como criar uma conta no Instagram">
             <button type="submit" value="click" id="enviar" class="botao">Enviar</button>
         </form>
     </div>
