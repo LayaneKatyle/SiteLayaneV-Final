@@ -10,19 +10,22 @@
 li{
     list-style: none;
 }
-.Main{
-    display: flex;
-    flex-direction: column;
+.div-principal{
     background-image: url(../img/pexels-marcus-aurelius-6787960.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 300px;
 }
 .Main h1{
-    font-size: 2.5em;
+    font-size: 3em;
 }
 li a{
     color: white; text-transform: uppercase;
@@ -39,6 +42,9 @@ a:hover{
     opacity:3;
     color: rgb(13, 196, 53);
     transition: 0.5s;
+}
+.principal-nav{
+    padding-top: 15px;
 }
 nav{
     display: flex;
