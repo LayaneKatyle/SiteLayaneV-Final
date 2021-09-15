@@ -26,6 +26,8 @@ li{
 }
 .Main h1{
     font-size: 3em;
+    color: #000000;
+    text-transform: uppercase;
 }
 li a{
     color: white; text-transform: uppercase;
